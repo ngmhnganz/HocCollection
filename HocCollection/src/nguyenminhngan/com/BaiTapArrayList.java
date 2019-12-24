@@ -3,7 +3,6 @@ package nguyenminhngan.com;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.sun.tools.jdeprscan.scan.Scan;
 
 public class BaiTapArrayList {
 	
@@ -64,9 +63,9 @@ public class BaiTapArrayList {
 		Scanner sc = new Scanner(System.in);
 		int i = sc.nextInt();
 		dsPhone.remove(i-1);
-		for (int i=0;i<dsPhone.size();i++) 
+		for (int j=0;j<dsPhone.size();j++) 
 		{
-			System.out.println((i+1)+".\t"+dsPhone.get(i));
+			System.out.println((i+1)+".\t"+dsPhone.get(j));
 		}
 	}
 	private static void timPhone() {
