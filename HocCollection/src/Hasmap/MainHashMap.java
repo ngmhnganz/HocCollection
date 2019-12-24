@@ -23,5 +23,8 @@ public class MainHashMap {
 	for ( String i: x) {
 		System.out.println(i);
 	}
+	// xóa dữ liệu có khóa chinh.
+	dsSV.remove(113);
+	// containsKey : kiểm tra có phần tử nào có khoa chính là abc không.
 	}
 }
