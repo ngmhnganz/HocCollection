@@ -14,15 +14,18 @@ public class MainHashMap {
 	for ( String sv: value) {
 		System.out.println(sv);
 	}
+	
 	// muốn truy xuất tới 1 sv có mã bất kì.
 	String sv=dsSV.get(114);
 	System.out.println(sv);
+	
 	// muốn sửa dữ liệu
 	dsSV.put(113,"Nguyễn Văn Tý");
 	Collection<String> x = dsSV.values();
 	for ( String i: x) {
 		System.out.println(i);
 	}
+	
 	// xóa dữ liệu có khóa chinh.
 	dsSV.remove(113);
 	// containsKey : kiểm tra có phần tử nào có khoa chính là abc không.
